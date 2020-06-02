@@ -11,3 +11,4 @@ economist.com##.ds-media-promo, .ds-media-promo--podcasts
 /_app.js$domain=economist.com
 @@||instructure.com^$important,document,~extension
 @@||yorku.ca^$important,document,~extension
+@@||smu.edu.sg^$important,document,~extension
