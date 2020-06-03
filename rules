@@ -1,6 +1,6 @@
 ! Title: SNHV
 ! Version: 2020.06
-! The Economist anti-paywall & declutter
+! The Economist anti-paywall & unclutter
 /_app.js$domain=economist.com
 ||evidon.com^$domain=economist.com
 ||tiqcdn.com^$domain=economist.com
