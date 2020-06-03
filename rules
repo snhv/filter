@@ -9,6 +9,6 @@
 economist.com##.subscription-
 economist.com##.newsletter-
 economist.com##.ds-media-
-! York University
+! York University whitelist
 @@||instructure.com^$important,document,~extension
 @@||yorku.ca^$important,document,~extension
