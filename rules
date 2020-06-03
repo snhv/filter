@@ -5,10 +5,10 @@
 ||evidon.com^$domain=economist.com
 ||tiqcdn.com^$domain=economist.com
 /subscription-proposition.*$domain=economist.com
-economist.com##.subscription-*
 /newsletter-signup.*$domain=economist.com
-economist.com##.newsletter-*
-economist.com##.ds-media-*
+economist.com##.subscription-
+economist.com##.newsletter-
+economist.com##.ds-media-
 ! York University
 @@||instructure.com^$important,document,~extension
 @@||yorku.ca^$important,document,~extension
