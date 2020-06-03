@@ -1,13 +1,10 @@
-||*.evidon.com^$domain=economist.com
-||tags.tiqcdn.com^$domain=economist.com
-/subscription-proposition.svg$domain=economist.com
-/subscription-proposition.*.svg$domain=economist.com
-economist.com##.subscription-proposition
-economist.com##.subscription-benefits
-/newsletter-signup.svg$domain=economist.com
-/newsletter-signup.*.svg$domain=economist.com
-economist.com##.newsletter-signup__text
-economist.com##.ds-media-promo, .ds-media-promo--podcasts
 /_app.js$domain=economist.com
+||evidon.com^$domain=economist.com
+||tiqcdn.com^$domain=economist.com
+/subscription-proposition.*$domain=economist.com
+economist.com##.subscription-*
+/newsletter-signup.*$domain=economist.com
+economist.com##.newsletter-*
+economist.com##.ds-media-*
 @@||instructure.com^$important,document,~extension
 @@||yorku.ca^$important,document,~extension
