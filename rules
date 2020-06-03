@@ -6,9 +6,9 @@
 ||tiqcdn.com^$domain=economist.com
 /subscription-proposition.*$domain=economist.com
 /newsletter-signup.*$domain=economist.com
-economist.com##.subscription-
-economist.com##.newsletter-
-economist.com##.ds-media-
+economist.com##.subscription-proposition
+economist.com##.subscription-benefits
+economist.com####.ds-media-promo, .ds-media-promo--podcasts
 ! York University whitelist
 @@||instructure.com^$important,document,~extension
 @@||yorku.ca^$important,document,~extension
