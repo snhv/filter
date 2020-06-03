@@ -1,3 +1,6 @@
+! Title: SNHV
+! Version: 2020.06
+! The Economist
 /_app.js$domain=economist.com
 ||evidon.com^$domain=economist.com
 ||tiqcdn.com^$domain=economist.com
@@ -6,5 +9,6 @@ economist.com##.subscription-*
 /newsletter-signup.*$domain=economist.com
 economist.com##.newsletter-*
 economist.com##.ds-media-*
+! York University
 @@||instructure.com^$important,document,~extension
 @@||yorku.ca^$important,document,~extension
