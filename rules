@@ -9,6 +9,9 @@
 economist.com##.subscription-proposition
 economist.com##.subscription-benefits
 economist.com####.ds-media-promo, .ds-media-promo--podcasts
+! Smithsonian Magazine unclutter
+/subscribe-circulation-promo-*$domain=smithsonianmag.com
+smithsonianmag.com##.signup-wrapper
 ! York University whitelist
 @@||instructure.com^$important,document,~extension
 @@||yorku.ca^$important,document,~extension
