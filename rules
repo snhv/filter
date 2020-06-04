@@ -2,6 +2,7 @@
 ! Description: Personal filter, compatible with AdGuard.
 ! Version: 0.2
 ! Expires: 1 days (update frequency)
+! Homepage: https://github.com/snhv/filter
 ! --- The Economist anti-paywall & unclutter ---
 /_app.js$domain=economist.com
 ||evidon.com^$domain=economist.com
