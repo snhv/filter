@@ -1,6 +1,6 @@
 ! Title: SNHV
 ! Description: Personal filter, compatible with AdGuard.
-! Version: 2020.06.19.1
+! Version: 2020.06.20.1
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/snhv/filter
 ! --- The Economist anti-paywall & unclutter ---
@@ -23,4 +23,4 @@ smithsonianmag.com##.newsletter-signup
 @@||canada.ca^$document
 @@||gc.ca^$document
 @@||ontario.ca^$document
-@@||gov.on.ca^$document
+@@||on.ca^$document
