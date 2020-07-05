@@ -1,6 +1,6 @@
 ! Title: SNHV
 ! Description: Personal filter, compatible with AdGuard.
-! Version: 2020.07.05.1
+! Version: 2020.07.05.2
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/snhv/filter
 ! --- The Economist anti-paywall & unclutter ---
@@ -17,10 +17,10 @@ economist.com##.ds-media-promo, .ds-media-promo--podcasts
 smithsonianmag.com##.magazine-signup-form
 smithsonianmag.com##.newsletter-signup
 ! --- York University whitelist ---
-@@||schulich.instructure.com^$important,document,~extension
-@@||*.yorku.ca^$important,document,~extension
+@@schulich.instructure.com^$important,document,~extension
+@@*.yorku.ca^$important,document,~extension
 ! --- Government whitelist ---
-@@||*.canada.ca^$important,document,~extension
-@@||*.gc.ca^$important,document,~extension
-@@||*.ontario.ca^$important,document,~extension
-@@||*.on.ca^$important,document,~extension
+@@*.canada.ca^$important,document,~extension
+@@*.gc.ca^$important,document,~extension
+@@*.ontario.ca^$important,document,~extension
+@@*.on.ca^$important,document,~extension
