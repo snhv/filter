@@ -24,3 +24,5 @@ smithsonianmag.com##.newsletter-signup
 @@||gc.ca^$important,document,~extension
 @@||ontario.ca^$important,document,~extension
 @@||on.ca^$important,document,~extension
+! --- Good sites whitelist ---
+@@||portableapps.com^$important,document,~extension
