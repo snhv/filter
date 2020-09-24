@@ -1,6 +1,6 @@
 ! Title: SNHV
 ! Description: Personal filter, compatible with AdGuard.
-! Version: 2020.09.16.1
+! Version: 2020.09.24.1
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/snhv/filter
 ! --- The Economist anti-paywall & unclutter ---
@@ -26,3 +26,37 @@ smithsonianmag.com##.newsletter-signup
 @@||on.ca^$important,document
 ! --- Good sites whitelist ---
 @@||portableapps.com^$important,document
+! --- LocalCDN whitelist ---
+@@||ajax.googleapis.com^
+@@||ajax.aspnetcdn.com^
+@@||ajax.microsoft.com^
+@@||cdnjs.cloudflare.com^
+@@||code.jquery.com^
+@@||cdn.jsdelivr.net^
+@@||fonts.googleapis.com^
+@@||yastatic.net^
+@@||yandex.st^
+@@||apps.bdimg.com^
+@@||libs.baidu.com^
+@@||cdn.staticfile.org^
+@@||cdn.bootcss.com^
+@@||mat1.gtimg.com^
+@@||lib.sinaapp.com^
+@@||upcdn.b0.upaiyun.com^
+@@||stackpath.bootstrapcdn.com^
+@@||maxcdn.bootstrapcdn.com^
+@@||netdna.bootstrapcdn.com^
+@@||use.fontawesome.com^
+@@||ajax.cloudflare.com^
+@@||akamai-webcdn.kgstatic.net^
+@@||gitcdn.github.io^
+@@||sdn.geekzu.org^
+@@||ajax.proxy.ustclug.org^
+@@||unpkg.com^
+@@||pagecdn.io^
+@@||cdn.css.net^
+@@||cdnjs.loli.net^
+@@||ajax.loli.net^
+@@||fonts.loli.net^
+@@||lib.baomitu.com^
+@@||cdn.bootcdn.net^
