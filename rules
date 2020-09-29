@@ -1,12 +1,15 @@
 ! Title: SNHV
 ! Description: Personal filter, compatible with AdGuard.
-! Version: 2020.09.24.1
+! Version: 2020.09.29.1
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/snhv/filter
 ! --- The Economist anti-paywall & unclutter ---
 /_app.js$domain=economist.com
 ||evidon.com^$domain=economist.com
 ||tiqcdn.com^$domain=economist.com
+||tinypass.com^$domain=economist.com
+||economist.com/api/bulk-subscriber$domain=economist.com
+||authenticate.economist.com^$domain=economist.com
 /subscription-proposition.*$domain=economist.com
 /newsletter-signup.*$domain=economist.com
 economist.com##.subscription-proposition
@@ -17,15 +20,15 @@ economist.com##.ds-media-promo, .ds-media-promo--podcasts
 smithsonianmag.com##.magazine-signup-form
 smithsonianmag.com##.newsletter-signup
 ! --- York University whitelist ---
-@@||schulich.instructure.com^$important,document
-@@||yorku.ca^$important,document
+@@||schulich.instructure.com^
+@@||yorku.ca^
 ! --- Government whitelist ---
-@@||canada.ca^$important,document
-@@||gc.ca^$important,document
-@@||ontario.ca^$important,document
-@@||on.ca^$important,document
+@@||canada.ca^
+@@||gc.ca^
+@@||ontario.ca^
+@@||on.ca^
 ! --- Good sites whitelist ---
-@@||portableapps.com^$important,document
+@@||portableapps.com^
 ! --- LocalCDN whitelist ---
 @@||ajax.googleapis.com^
 @@||ajax.aspnetcdn.com^
