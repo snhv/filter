@@ -1,6 +1,6 @@
 ! Title: HVN Filter
 ! Description: Personal filter, compatible with AdGuard.
-! Version: 2020.10.27.3
+! Version: 2020.10.28.1
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/snhv/filter
 ! --- The Economist ---
@@ -19,3 +19,5 @@ economist.com##.ds-media-promo, .ds-media-promo--podcasts
 /subscribe-circulation-promo-*$domain=smithsonianmag.com
 smithsonianmag.com##.magazine-signup-form
 smithsonianmag.com##.newsletter-signup
+! --- others ---
+mondaq.com##.dropdown-menu
