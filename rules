@@ -1,6 +1,6 @@
 ! Title: Personal filter
 ! Description: Personal filter, compatible with AdGuard.
-! Version: 2021.02.04.1
+! Version: 2021.03.20.1
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/snhv/filter
 ! --- The Economist ---
@@ -23,5 +23,5 @@ smithsonianmag.com##.newsletter-signup
 ! --- others ---
 mondaq.com##.dropdown-menu
 ! --- Canada ---
-@@||gc.ca^$important,document
-@@||canada.ca^$important,document
+@@||*.gc.ca^$important,document
+@@||*.canada.ca^$important,document
