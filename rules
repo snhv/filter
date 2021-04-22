@@ -22,6 +22,3 @@ smithsonianmag.com##.magazine-signup-form
 smithsonianmag.com##.newsletter-signup
 ! --- others ---
 mondaq.com##.dropdown-menu
-! --- Canada ---
-@@||*.gc.ca^$important,document
-@@||*.canada.ca^$important,document
