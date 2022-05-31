@@ -1,6 +1,6 @@
 ! Title: Personal filter
 ! Description: Personal filter, compatible with AdGuard, uBo, and BPC.
-! Version: 2021.09.06.2
+! Version: 2022-05-31.1
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/snhv/filter
 ! --- The Economist ---
@@ -23,5 +23,11 @@ smithsonianmag.com##.newsletter-signup
 ! --- Coursera ---
 coursera.org###rendered-content > div.rc-MetatagsWrapper > div.rc-Course > div.rc-LearningAssistant:first-child > div._1ed7tibu.messages > div > div > div > div.rc-LearningAssistantPushMessage > div._10o07ul5.assistant-card
 coursera.org###main > div.course-content-body > div.rc-Welcome > div > div > div.rc-NpsModal:last-child > span > div.rc-Modal.popup > div.c-modal-content.card-rich-interaction
+! --- Canada ---
+@@canada.ca
+@@gc.ca
+! --- YorkU ---
+@@yorku.ca
+@@us.azureauth.duosecurity.com
 ! --- others ---
 mondaq.com##.dropdown-menu
