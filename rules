@@ -24,10 +24,10 @@ smithsonianmag.com##.newsletter-signup
 coursera.org###rendered-content > div.rc-MetatagsWrapper > div.rc-Course > div.rc-LearningAssistant:first-child > div._1ed7tibu.messages > div > div > div > div.rc-LearningAssistantPushMessage > div._10o07ul5.assistant-card
 coursera.org###main > div.course-content-body > div.rc-Welcome > div > div > div.rc-NpsModal:last-child > span > div.rc-Modal.popup > div.c-modal-content.card-rich-interaction
 ! --- Canada ---
-@@canada.ca
-@@gc.ca
+@@||canada.ca^$document
+@@||gc.ca^$document
 ! --- YorkU ---
-@@yorku.ca
-@@us.azureauth.duosecurity.com
+@@||yorku.ca^$document
+@@||us.azureauth.duosecurity.com^$document
 ! --- others ---
 mondaq.com##.dropdown-menu
