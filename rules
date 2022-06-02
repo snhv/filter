@@ -3,31 +3,9 @@
 ! Version: 2022-05-31.2
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/snhv/filter
-! --- The Economist ---
-/subscription-proposition.*$domain=economist.com
-/newsletter-signup.*$domain=economist.com
-economist.com##.subscription-proposition
-economist.com##.subscription-benefits
-economist.com##.layout-article-promo
-economist.com##.ds-media-promo, .ds-media-promo--podcasts
-! --- Financial Times ---
-ft.com##.o-message, .o-message--action, .o-message--digital-intro-subscription-promo
-ft.com##.article__content-sign-up
-ft.com##.n-content-layout__container
-ft.com##.instant-alert-cta, .js-instant-alert-cta
-ft.com##.o--if-js, .article-ribbon, .js-article-ribbon, .article--full-width-background
-! --- Smithsonian Magazine ---
-/subscribe-circulation-promo-*$domain=smithsonianmag.com
-smithsonianmag.com##.magazine-signup-form
-smithsonianmag.com##.newsletter-signup
-! --- Coursera ---
-coursera.org###rendered-content > div.rc-MetatagsWrapper > div.rc-Course > div.rc-LearningAssistant:first-child > div._1ed7tibu.messages > div > div > div > div.rc-LearningAssistantPushMessage > div._10o07ul5.assistant-card
-coursera.org###main > div.course-content-body > div.rc-Welcome > div > div > div.rc-NpsModal:last-child > span > div.rc-Modal.popup > div.c-modal-content.card-rich-interaction
 ! --- Canada ---
 @@||canada.ca^$document
 @@||gc.ca^$document
 ! --- YorkU ---
 @@||yorku.ca^$document
 @@||us.azureauth.duosecurity.com^$document
-! --- others ---
-mondaq.com##.dropdown-menu
