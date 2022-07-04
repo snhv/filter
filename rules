@@ -4,8 +4,11 @@
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/snhv/filter
 !---The Economist---
-||economist.com/optimizelyjs^
-||economist.com/engassets/*.js$domain=economist.com
+economist.com/optimizelyjs^
+economist.com/engassets/*.js$domain=economist.com
+economist.com##.css-1uzxrld, .ey1yhxa7
+economist.com##.css-drxevm, .e1xre6611
+economist.com##._newsletterContentPromo
 !---thuvienphapluat.vn---
 thuvienphapluat.vn###middle-column > div.bn-left:first-child
 https://cdn.thuvienphapluat.vn/Images/new.gif
