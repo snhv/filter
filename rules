@@ -1,22 +1,12 @@
 ! Title: Personal filter
 ! Description: Personal filter, compatible with AG, uBo, and BPC.
-! Version: 2022-07-03.1
+! Version: 2022-07-09.1
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/snhv/filter
 !---The Economist---
-economist.com/optimizelyjs^
-economist.com/engassets/*.js$domain=economist.com
-economist.com##.css-1uzxrld, .ey1yhxa7
-economist.com##.css-drxevm, .e1xre6611
 economist.com##._newsletterContentPromo
+economist.com##.css-cwcadi, .ey1yhxa7
+economist.com##.css-drxevm, .e1xre6611
 !---thuvienphapluat.vn---
 thuvienphapluat.vn###middle-column > div.bn-left:first-child
 https://cdn.thuvienphapluat.vn/Images/new.gif
-!--- Canada---
-@@||canada.ca^$important,document
-@@||gc.ca^$important,document
-! ---YorkU---
-@@||yorku.ca^$important,document
-@@||duosecurity.com^$important,document
-!---rezi.ai---
-@@||app.rezi.ai^$important,document
