@@ -1,19 +1,8 @@
 ! Title: Personal filter
 ! Description: Personal filter, compatible with AdGuard, uBlock, Brave, and Bypass Paywall Clean.
-! Version: 2022-11-28.3
+! Version: 2023-03-23.1
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/snhv/filter
-!---The Economist---
-economist.com##._newsletterContentPromo
-economist.com##.css-cwcadi, .ey1yhxa7
-economist.com##.css-drxevm, .e1xre6611
-!---thuvienphapluat.vn---
-thuvienphapluat.vn###middle-column > div.bn-left:first-child
-https://cdn.thuvienphapluat.vn/Images/new.gif
-!---Canada Visa---
-canadavisa.com###div-ad-holder-1
-canadavisa.com###div-ad-holder-5
-canadavisa.com###div-ad-holder-9
-canadavisa.com###div-ad-holder-13
-!---Brave---
-@@brave.com
+@@portableapps.com
+@@us.azureauth.duosecurity.com
+@@yorku.zoom.us
